@@ -1,3 +1,15 @@
+/*
+PROJECT: Retail Sales Analytics - Gold Layer
+AUTHOR: Gurpreet Singh
+DESCRIPTION: 
+This script defines the virtualized consumption layer using SQL Views. 
+By utilizing views instead of physical tables, we:
+1. Optimize for DirectLake performance in Power BI.
+2. Decouple business logic (MoM Growth, Net Sales) from the storage layer.
+3. Ensure a 'Single Source of Truth' without data duplication.
+*/
+
+
 SELECT TOP 10 *
 FROM OPENROWSET(
     BULK 'Files/silver/retail_transactions.parquet',
@@ -90,3 +102,4 @@ SELECT
         0) 
     AS DECIMAL(18,4)) AS mom_growth_pct
 FROM vw_monthly_revenue;
+
