@@ -1,12 +1,12 @@
-# 🚀 Enterprise Retail Analytics: End-to-End Microsoft Fabric Pipeline
+# Enterprise Retail Analytics: End-to-End Microsoft Fabric Pipeline
 
-## 📖 Executive Summary
+## Executive Summary
 
 This project showcases a complete **Microsoft Fabric** implementation designed to solve common retail data challenges: inconsistent formatting, missing business logic, and slow reporting cycles. By processing over **401,000 transactions**, the pipeline delivers a high-fidelity analytics suite tracking **$8.76M in revenue** with real-time scalability.
 
 ---
 
-## 🏗️ Data Architecture: The Medallion Framework
+## Data Architecture: The Medallion Framework
 
 I architected the solution using a **Medallion (Bronze-Silver-Gold) approach** to ensure data governance and a clear "Single Source of Truth".
 
@@ -31,7 +31,7 @@ I architected the solution using a **Medallion (Bronze-Silver-Gold) approach** t
 
 ---
 
-## 🛠️ Tech Stack & Key Features
+## Tech Stack & Key Features
 
 * **Orchestration**: Microsoft Fabric Workspace.
 * **Languages**: Python (Pandas/PySpark) & T-SQL.
@@ -40,7 +40,7 @@ I architected the solution using a **Medallion (Bronze-Silver-Gold) approach** t
 
 ---
 
-## 📈 Business Impact & Performance KPIs
+## Business Impact & Performance KPIs
 
 * **Revenue Optimization**: Identified a **336.71% MoM growth** surge during peak seasons.
 * **Market Expansion**: Mapped geographical performance showing the **UK as the core market ($6.7M)** while identifying emerging EU growth bubbles.
@@ -48,7 +48,7 @@ I architected the solution using a **Medallion (Bronze-Silver-Gold) approach** t
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── Notebooks
